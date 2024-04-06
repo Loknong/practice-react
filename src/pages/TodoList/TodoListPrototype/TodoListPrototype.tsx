@@ -33,6 +33,8 @@ export default function TodoListPrototype() {
 
   const editPerson = (todo: item, index: number) => {
     console.log(index);
+    console.log(todo);
+    
 
     setTodos(todos.filter((todo) => todo.id !== index));
   };

@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./TodoListV1.css";
 import Layout from "../../../layout/Layout";
 const TodoListV1 = () => {
-  const [todos, setTodos] = useState([
+  const [todos] = useState([
     { id: 1, title: "test", detail: "asdasdasd" },
   ]);
   return (
