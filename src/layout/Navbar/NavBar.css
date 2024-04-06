@@ -1,0 +1,42 @@
+/* Base styles */
+nav {
+    height: 100%;
+    transition: width 0.3s; /* Smooth transition for width */
+}
+
+/* Styles for full nav */
+.nav-full {
+    width: 256px; /* Or your desired full width */
+}
+
+/* Styles for compact nav */
+.nav-compact {
+    width: 80px; /* Or your desired compact width */
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li.active {
+    background-color: rgb(53, 54, 63);
+}
+
+nav li {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; /* Ensures text does not wrap */
+    padding-left: 2rem; /* Adjust as needed */
+    padding-right: 2rem; /* Adjust as needed */
+}
+
+.submenu-indicator {
+    font-size: 1rem;
+}
+
+.with-submenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

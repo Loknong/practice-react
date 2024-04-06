@@ -1,0 +1,7 @@
+- layout
+- router
+- components
+- props
+- react Hook -> useContext เน้น
+- CRUD to state with difference type of data // array, object, array of object
+- 

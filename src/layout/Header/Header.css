@@ -1,0 +1,18 @@
+.HeaderSection {
+  display: flex;
+  flex-direction: row;
+}
+header {
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+header > h1 {
+}
+.nav-button {
+  min-width: 10%;
+  border-radius: 0px;
+}
